@@ -1,2 +1,48 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to bottom,#0b1418, #3C4B4C);
+    }
+
+    section {
+        width: 80vw;
+    }
+
+    div.hero {
+        width: 40%;
+        height: 100%;
+        float: left;
+    }
+
+    div#formulario {
+        float: right;
+        width: 300px;
+    }
+
+    }
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    body {
+        background-image: linear-gradient(to bottom,#0b1418, #3C4B4C);
+    }
+
+    section {
+            width: 950px;
+    }
+
+    div.hero {
+        width: 50%;
+        height: 100%;
+        float: right;
+    }
+
+    div.form {
+        float: left;
+        width: 70%;
+    }
+
+}
